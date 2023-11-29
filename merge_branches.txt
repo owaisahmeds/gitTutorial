@@ -1,0 +1,8 @@
+
+how to merge branches
+
+git fetch -p
+git checkout b011078/CIM-10411-salesforce-blm_first_purch_cust
+git pull origin b011078/CIM-10411-salesforce-blm_first_purch_cust
+git checkout <your_branch>
+git merge b011078/CIM-10411-salesforce-blm_first_purch_cust
